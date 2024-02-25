@@ -1,4 +1,5 @@
 import "./App.css";
+import "./Components/Intro/index.jsx";
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <div>
         <h1>Hello</h1>
       </div>
+      Intro
     </>
   );
 }
