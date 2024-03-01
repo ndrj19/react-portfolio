@@ -1,13 +1,17 @@
 import "./App.css";
-import "./Components/Intro/index.jsx";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Intro from "./Components/Intro";
+import ProjectSection from "./Components/ProjectSection";
+import About from "./Components/About";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
     <>
-      <div>
-        <h1>Hello</h1>
-      </div>
-      Intro
+      <Intro />
+      <ProjectSection />
+      <About />
+      <Contact />
     </>
   );
 }
