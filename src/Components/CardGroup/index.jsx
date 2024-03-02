@@ -1,7 +1,8 @@
 import React from "react";
 import ProjectCard from "../ProjectCard";
 
-const CardGroup = () => {
+const CardGroup = (projects4 = props.projects4) => {
+  console.log(projects4);
   return (
     <>
       <div className="card-group d-flex d-md-none">
@@ -12,10 +13,10 @@ const CardGroup = () => {
         <ProjectCard />
       </div>
       <div className="card-group d-none d-xl-flex">
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
+        {/* {projects4.map((_, i) => {
+          return <ProjectCard key={i} projData={projects4[0]} />;
+        })} */}
+        <ProjectCard projData={projects4[0]} />
       </div>
     </>
   );

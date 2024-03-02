@@ -1,7 +1,9 @@
 import React from "react";
 import CardGroup from "../CardGroup";
+import projects from "../../projects";
 
 const CardCarousel = () => {
+  // console.log(projects);
   return (
     <>
       <div
@@ -108,7 +110,7 @@ const CardCarousel = () => {
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <CardGroup />
+            <CardGroup projects4={projects.slice(0, 4)} />
           </div>
           <div className="carousel-item">
             <CardGroup />
