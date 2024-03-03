@@ -1,9 +1,6 @@
 import React from "react";
 
-const ProjectCard = (
-  projData = props.projData
-) => {
-  console.log(title);
+const ProjectCard = () => {
   return (
     <>
       <div className="card rounded-4">
