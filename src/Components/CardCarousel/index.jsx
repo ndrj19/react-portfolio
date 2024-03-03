@@ -17,6 +17,7 @@ const CardCarousel = ({
               <div className={"carousel-item" + (index === 0 ? " active" : "")}>
                 <CardGroup
                   key={index}
+                  group={index + 1}
                   cardsPerGroup={cardsPerGroup}
                   displayString={displayString}
                 />
@@ -25,7 +26,7 @@ const CardCarousel = ({
           })}
       </div>
       <button
-        className="carousel-control-prev"
+        className="carousel-control-prev nav-btn"
         type="button"
         data-bs-target={`#${carouselType}`}
         data-bs-slide="prev"
@@ -34,7 +35,7 @@ const CardCarousel = ({
         <span className="visually-hidden">Previous</span>
       </button>
       <button
-        className="carousel-control-next"
+        className="carousel-control-next nav-btn"
         type="button"
         data-bs-target={`#${carouselType}`}
         data-bs-slide="next"

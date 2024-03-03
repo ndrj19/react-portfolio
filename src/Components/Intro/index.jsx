@@ -11,7 +11,7 @@ const Intro = () => {
           <h1 className="fs-1 fw-bolder">
             Hi,<br></br> I am Andrej
           </h1>
-          <p className="fs-5">
+          <p className="fs-5 justify-content-center">
             I'm a passionate Full Stack Developer crafting (web) applications
             using a variety of technologies, including JavaScript, PHP, SQL, and
             MongoDB. I have hands-on experience with frameworks like React,

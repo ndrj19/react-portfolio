@@ -10,7 +10,7 @@ const ProjectSection = () => {
       >
         <a
           href="#intro"
-          class="btn carousel-control-prev-icon fa-rotate-90 nav-btn align-self-center"
+          className="btn carousel-control-prev-icon fa-rotate-90 nav-btn align-self-center"
         ></a>
         <h1 className="text-white fw-bolder text-center p-3 my-0 projects-header">
           Projects
@@ -50,7 +50,7 @@ const ProjectSection = () => {
         </div>
         <a
           href="#about"
-          class="btn carousel-control-next-icon fa-rotate-90 nav-btn align-self-center"
+          className="btn carousel-control-next-icon fa-rotate-90 nav-btn align-self-center"
         ></a>
       </div>
     </>

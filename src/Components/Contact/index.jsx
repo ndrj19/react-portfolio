@@ -5,7 +5,7 @@ const Contact = () => {
     <>
       <div
         id="contact"
-        className=" d-flex flex-column bg-secondary vh-100 justify-content-center align-items-center"
+        className=" d-flex flex-column vh-100 justify-content-center align-items-center"
       >
         <a
           href="#about"
