@@ -1,3 +1,48 @@
+#root {
+  font-family: Nunito Sans, sans-serif;
+  background-color: #0f1126;
+}
+
+#intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/bg.jpg");
+  object-fit: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.intro-link {
+  text-decoration: none;
+  border-radius: 5%;
+}
+
+.nav-btn {
+  background-color: transparent;
+  color: #e1e1e1;
+  width: 3vh;
+  height: 3vh;
+  border: 1px solid #ffffff;
+  opacity: 50%;
+  border-radius: 50%;
+}
+
+.mepic {
+  height: 30vh;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .projects-header,
+  .about-header {
+    font-size: 5rem;
+  }
+  .about-text {
+    width: 50%;
+    font-size: 1.5rem;
+  }
+}
+
 .cards-wrapper {
   display: flex;
   justify-content: center;

@@ -7,7 +7,7 @@ const Intro = () => {
         id="intro"
         className="intro px-5 vh-100 bg-primary text-white d-flex flex-column justify-content-around align-items-center"
       >
-        <div className="mt-5 pt-5">
+        <div className="mt-5 pt-5 mx-5 px-5">
           <h1 className="fs-1 fw-bolder">
             Hi,<br></br> I am Andrej
           </h1>

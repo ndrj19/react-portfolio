@@ -5,7 +5,7 @@ const About = () => {
     <>
       <div
         id="about"
-        className="d-flex flex-column bg-primary vh-100 justify-content-center align-items-center"
+        className="d-flex flex-column vh-100 justify-content-center align-items-center"
       >
         <a
           href="#projects-section"
@@ -20,11 +20,11 @@ const About = () => {
             December 2023. My journey into the world of technology commenced as
             a Product Analyst, where I honed skills in SQL and Git. These were
             my favorite things and it quickly fueled my aspiration to transition
-            into a developer role.Skills/languages: Javascript, PHP, React, SQL,
-            HTML, CSS, Bootstrap
+            into a developer role.<br></br> Skills/languages: Javascript, PHP,
+            React, SQL, HTML, CSS, Bootstrap
           </p>
           <img
-            src="assets/Andrej_02.jpg"
+            src="src/assets/andrej.jpg"
             alt="Image of Andrej"
             className="mepic rounded-4 mx-3 my-5"
           />
