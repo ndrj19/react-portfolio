@@ -17,20 +17,14 @@ const Intro = () => {
             MongoDB. I have hands-on experience with frameworks like React,
             Express and Slim.
           </p>
-          <div className="d-flex gap-2 justify-content-end">
-            <a
-              href="#projects-section"
-              className="border p-1 fs-5 text-white intro-link"
-            >
+          <div className="d-flex gap-2 mt-5 justify-content-center">
+            <a href="#projects-section" className="p-1 fs-5 intro-link">
               Projects
             </a>
-            <a href="#about" className="border p-1 fs-5 text-white intro-link">
+            <a href="#about" className="p-1 fs-5 intro-link">
               About
             </a>
-            <a
-              href="#contact"
-              className="border p-1 fs-5 text-white intro-link"
-            >
+            <a href="#contact" className="p-1 fs-5 intro-link">
               Contact
             </a>
           </div>
