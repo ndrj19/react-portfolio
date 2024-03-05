@@ -1,23 +1,17 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Intro from "./Components/Intro";
-import ProjectSection from "./Components/ProjectSection";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
-import TestCards from "./Components/TestCards";
-import ProjectSectionClone from "./Components/ProjectSectionClone";
-import ProjectSectionNew from "./Components/ProjectSectionNew";
+import ProjectSection from "./Components/ProjectSection";
 
 function App() {
   return (
     <>
       <Intro />
-      {/* <ProjectSection /> */}
-      <ProjectSectionNew />
+      <ProjectSection />
       <About />
       <Contact />
-      {/* <TestCards /> */}
-      {/* <ProjectSectionClone /> */}
     </>
   );
 }
