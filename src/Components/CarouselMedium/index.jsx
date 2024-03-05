@@ -5,7 +5,7 @@ const CarouselMedium = () => {
   return (
     <div
       id="carousel-medium-screens"
-      className="py-3 px-4 carousel slide d-none d-lg-block"
+      className="py-3 px-4 carousel slide d-none d-lg-block d-xl-none"
       data-bs-touch="true"
     >
       {Array(3)

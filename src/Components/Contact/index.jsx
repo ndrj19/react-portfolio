@@ -9,7 +9,7 @@ const Contact = () => {
       >
         <a
           href="#about"
-          className="carousel-control-prev-icon fa-rotate-90 nav-btn mb-5"
+          className="btn carousel-control-prev-icon fa-rotate-90 nav-btn mb-5"
         ></a>
         <div className="d-flex flex-column justify-content-center align-items-center">
           <h1 className="text-white fw-bolder text-center py-3 px-5 contact-text my-0">

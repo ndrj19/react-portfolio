@@ -9,7 +9,7 @@ const About = () => {
       >
         <a
           href="#projects-section"
-          className="carousel-control-prev-icon fa-rotate-90 nav-btn"
+          className="btn carousel-control-prev-icon fa-rotate-90 nav-btn"
         ></a>
         <h1 className="text-white fw-bolder about-header text-center py-3">
           About
@@ -31,7 +31,7 @@ const About = () => {
         </div>
         <a
           href="#contact"
-          className="carousel-control-next-icon fa-rotate-90 nav-btn"
+          className="btn carousel-control-next-icon fa-rotate-90 nav-btn"
         ></a>
       </div>
     </>

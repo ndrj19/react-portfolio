@@ -14,7 +14,9 @@ const CardXSmall = ({
         <div className="card rounded-4">
           <div
             className="image-wrapper rounded-top-4"
-            style={{ backgroundImage: `url(${img})` }}
+            style={{
+              backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(${img})`,
+            }}
           ></div>
           <div className="card-body border-top border-dark-subtle d-flex flex-column">
             <h4 className="card-title fw-bolder">{title}</h4>

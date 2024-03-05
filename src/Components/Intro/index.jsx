@@ -37,7 +37,7 @@ const Intro = () => {
         </div>
         <a
           href="#projects-section"
-          className="carousel-control-next-icon fa-rotate-90 nav-btn"
+          className="btn carousel-control-next-icon fa-rotate-90 nav-btn"
         ></a>
       </div>
     </>
