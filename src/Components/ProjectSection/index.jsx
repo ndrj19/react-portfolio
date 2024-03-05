@@ -1,5 +1,7 @@
 import React from "react";
 import CarouselXSmall from "../CarouselXSmall";
+import CarouselSmall from "../CarouselSmall";
+import CarouselMedium from "../CarouselMedium";
 
 const ProjectSection = () => {
   return (
@@ -15,6 +17,8 @@ const ProjectSection = () => {
         Projects
       </h1>
       <CarouselXSmall />
+      <CarouselSmall />
+      <CarouselMedium />
       <a
         href="#about"
         className="btn carousel-control-next-icon fa-rotate-90 nav-btn align-self-center"

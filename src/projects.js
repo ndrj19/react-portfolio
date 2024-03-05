@@ -72,6 +72,14 @@ const projects = [
     github: "https://github.com/ndrj19",
     liveProject: "",
   },
+  {
+    id: 9,
+    img: "src/assets/background.jpg",
+    title: "Next project",
+    description: "Something great in the making.",
+    github: "https://github.com/ndrj19",
+    liveProject: "",
+  },
 ];
 
 export default projects;

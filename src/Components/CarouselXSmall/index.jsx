@@ -1,5 +1,5 @@
 import React from "react";
-import CardXSmall from "../ProjectCards";
+import CardXSmall from "../CardXSmall";
 import projects from "../../projects";
 
 const CarouselXSmall = () => {
@@ -10,7 +10,7 @@ const CarouselXSmall = () => {
       data-bs-touch="true"
     >
       <div className="carousel-inner">
-        {projects.map((proj, i) => {
+        {projects.slice(0, 7).map((proj, i) => {
           return (
             <CardXSmall
               key={i}

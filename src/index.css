@@ -74,7 +74,7 @@
 
 .image-wrapper,
 .card-body {
-  height: 25vh;
+  height: 30vh;
 }
 /* .image-wrapper {
   height: 25vw;
@@ -96,6 +96,12 @@
 .card:hover {
   transform: scale(1.03);
 }
+
+/* @media screen and (min-width: 576px) {
+  .card-body {
+    height: 35vh;
+  }
+} */
 
 @media screen and (min-width: 992px) {
   .projects-header,
