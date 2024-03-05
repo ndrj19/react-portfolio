@@ -3,7 +3,8 @@ import ProjectCard from "../ProjectCard";
 
 const CardGroup = ({ cardsPerGroup, displayString, group }) => {
   return (
-    <div className={`card-group ${displayString}`}>
+    // <div className={`card-group ${displayString}`}>
+    <div className="card-group">
       {Array(cardsPerGroup)
         .fill(null)
         .map((_, index) => {
