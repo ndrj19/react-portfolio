@@ -6,12 +6,14 @@ import About from "./Components/About";
 import Contact from "./Components/Contact";
 import TestCards from "./Components/TestCards";
 import ProjectSectionClone from "./Components/ProjectSectionClone";
+import ProjectSectionNew from "./Components/ProjectSectionNew";
 
 function App() {
   return (
     <>
       <Intro />
-      <ProjectSection />
+      {/* <ProjectSection /> */}
+      <ProjectSectionNew />
       <About />
       <Contact />
       {/* <TestCards /> */}

@@ -60,6 +60,10 @@
   justify-content: center;
 }
 
+.card img {
+  height: 25vw;
+}
+
 .image-wrapper {
   object-fit: cover;
   background-position: top;
@@ -73,12 +77,8 @@
   margin: 0 auto;
 }
 
-/* .card {
-  display: flex;
-  flex-direction: column;
-} */
-
 .card {
+  width: 100%;
   margin: 0 0.5em;
   box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
   border: none;
@@ -86,7 +86,7 @@
 }
 
 .card-body {
-  height: 25vh;
+  height: 35vh;
 }
 
 .card:hover {
