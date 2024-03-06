@@ -10,6 +10,15 @@ const projects = [
   },
   {
     id: 2,
+    img: "src/assets/hodor.png",
+    title: "A Song Of Ice And Fire API",
+    description:
+      "Serverless API built with Node Express hosted on AWS Lambda. Interfaces with a Neon PostgreSQL database and Drizzle ORM.",
+    github: "https://github.com/ndrj19",
+    liveProject: "https://zi118ue9wg.execute-api.eu-west-2.amazonaws.com/",
+  },
+  {
+    id: 3,
     img: "src/assets/furniture.png",
     title: "Furniture Store",
     description:
@@ -18,7 +27,7 @@ const projects = [
     liveProject: "https://furniture-store.dev.io-academy.uk/",
   },
   {
-    id: 3,
+    id: 4,
     img: "src/assets/invoicing.png",
     title: "Invoicing App",
     description:
@@ -27,7 +36,7 @@ const projects = [
     liveProject: "https://23-aug-invoicing.dev.io-academy.uk/",
   },
   {
-    id: 4,
+    id: 5,
     img: "src/assets/chessclock.png",
     title: "Chess Clock",
     description:
@@ -37,7 +46,7 @@ const projects = [
       "https://ifyouforgotyourchessclock.2023-andrejh.dev.io-academy.uk/",
   },
   {
-    id: 5,
+    id: 6,
     img: "src/assets/boneyard.png",
     title: "Brainworms' Boneyard",
     description:
@@ -47,7 +56,7 @@ const projects = [
       "https://dev.io-academy.uk/projects/2023-aug/23-aug-pairs/game.html",
   },
   {
-    id: 6,
+    id: 7,
     img: "src/assets/pathogens.png",
     title: "Pathogens Collection App",
     description:
@@ -56,7 +65,7 @@ const projects = [
     liveProject: "https://2023-andrejh.dev.io-academy.uk/pathogens-collection/",
   },
   {
-    id: 7,
+    id: 8,
     img: "src/assets/tipsplit.png",
     title: "Tip Splitter",
     description:
@@ -65,20 +74,12 @@ const projects = [
     liveProject: "https://tip-splitter.2023-andrejh.dev.io-academy.uk/",
   },
   {
-    id: 8,
-    img: "src/assets/background.jpg",
-    title: "Next project",
-    description: "Something great in the making.",
-    github: "https://github.com/ndrj19",
-    liveProject: "",
-  },
-  {
     id: 9,
     img: "src/assets/background.jpg",
     title: "Next project",
     description: "Something great in the making.",
     github: "https://github.com/ndrj19",
-    liveProject: "",
+    liveProject: "https://github.com/ndrj19",
   },
 ];
 
