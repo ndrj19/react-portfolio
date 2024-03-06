@@ -53,7 +53,7 @@ const projects = [
       "Brainworms' Boneyard is a spooky Pairs game written in JavaScript, HTML and CSS coming in a spooky Halloween edition.",
     github: "https://github.com/iO-Academy/23-aug-pairs",
     liveProject:
-      "https://dev.io-academy.uk/projects/2023-aug/23-aug-pairs/game.html",
+      "https://dev.io-academy.uk/projects/2023-aug/23-aug-pairs/index.html",
   },
   {
     id: 7,

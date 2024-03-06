@@ -21,7 +21,7 @@ const About = () => {
             skills in SQL and Git. These were my favorite things and it quickly
             fueled my aspiration to transition into a developer role.<br></br>
             Languages/frameworks: Javascript, PHP, Node.js, SQL, MongoDB &
-            React, Slim, Express
+            React, Slim, Express.
           </p>
           <img
             src="src/assets/andrej.jpg"
